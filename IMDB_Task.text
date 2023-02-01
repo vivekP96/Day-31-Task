@@ -1,0 +1,27 @@
+1.create table movies(Id int,Title varchar (100),Year INT ,image varchar(255),Director varchar(100),Genre varchar(100),Artist varchar(255),Artist_skills 
+varchar (255),Multiple_role text,Imdb_rating float,User_reviews float,Runtime float,Aspect_ratio float default 2.39 );
+
+
+2.insert into movies values(1,"The Pale Blue Eye",2023,"https://m.media-amazon.com/images/M/MV5BMGI0Y2E5MGYtYWE5NS00M2RlLWEzZGMtMzdjMmE0ZTMzNDc1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX100_CR0,0,100,100_AL_.jpg",
+"Scott Cooper","Crime,Horror","Christian Bale","Singing","No",8.0,7.5,128,2.39);
+
+
+3.insert into movies values(2,"The Toy story",1995,"https://m.media-amazon.com/images/M/MV5BMTQ5NTc5NTYyM15BMl5BanBnXkFtZTcwMzk0MjIyNw@@._V1_UX100_CR0,0,100,100_AL_.jpg",
+"John Lassester","Animation,Comedy","Tom Hanks","Dubbing","No",9.1,8.5,90,2.39);
+
+4.insert into movies values(3,"The Toy story 2",1999,"https://m.media-amazon.com/images/M/MV5BMjI2NDE3MjA5MV5BMl5BanBnXkFtZTcwNTA0NDU0NQ@@._V1_UY100_CR34,0,100,100_AL_.jpg",
+"John Lassester","Animation,Comedy","Tom Hanks","Dubbing","No",8.5,8.0,93,2.39);
+
+5.insert into movies values(4,"The Cars 2",2009,"https://www.imdb.com/title/tt1216475/mediaviewer/rm1081981184/?ref_=tt_md_5",
+"John Lasseter","Animation,Comedy,Adventure","Owen Wilson","Dubbing","No",9.0,9.2,86,2.39);
+
+
+6.insert into movies values(5,"The Dark Knight",2008,"https://m.media-amazon.com/images/M/MV5BMTU3MTg0ODM1MV5BMl5BanBnXkFtZTcwNDgzMTk2Mw@@._V1_UY100_CR68,0,100,100_AL_.jpg",
+"Christopher Nolan","Action,Crime,Drama","Christian Bale,Heath Ledger","Acting,Music","No",9.0,9.5,152,2.39);
+
+
+7.insert into movies values(6,"Avatar:The Way of Water",2022,"https://www.imdb.com/title/tt1630029/mediaviewer/rm2056993025/?ref_=tt_md_4",
+"James Cameron","Action,Adventure,Fantasy","Sam Worthington,Zoe Saldana","Acting,Music","No",7.8,8.2,184,2.39);
+
+
+8.select * from movies;
